@@ -1,0 +1,57 @@
+h2
+{
+    color: aliceblue;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 30px;
+    animation: Animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    border-radius: 6px;
+}
+tr,td
+{
+    padding: 6px;
+    background-color: darkorange;
+    text-align: center;
+    color: aliceblue ;
+    width: 130px;
+    font-size: 20px;
+    
+}
+table td:nth-child(even)
+{
+    background-color: blue;
+    animation: Animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+table
+{
+    margin: 4px auto;
+}
+
+@keyframes Animate {
+    0%
+    {
+        background-color: red;
+    }
+    25%
+    {
+        background-color: yellow;
+    }
+    50%
+    {
+        background-color: blue;
+    }
+    75%
+    {
+        background-color: darkred;
+    }
+    100%
+    {
+        background-color: green;
+    }
+    
+}

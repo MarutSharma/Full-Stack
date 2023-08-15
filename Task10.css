@@ -1,0 +1,43 @@
+h1
+{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+}
+input
+{
+    margin-left: 100px;
+    padding: 4px;
+    margin-top: 10px;
+}
+input:hover
+{
+    border: 1px solid;
+    box-shadow: 4px 4px ;
+}
+select
+{
+    margin-left: 100px;
+}
+#abc
+{
+    margin-left: -100px;
+}
+button
+{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+button:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid #4CAF50;
+    box-shadow: 3px 3px #4CAF50;
+}
